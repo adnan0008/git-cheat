@@ -1,0 +1,50 @@
+changed now
+git init => go into that folder where you want ot perform git actions
+
+git status => check if any new files added or not 
+---------------------------------------------------------------------------
+how to clone the repository
+
+git clone https://github.com/adnan0008/projectname.git => in the same folder it is clonned 
+
+-----------------------------------------------------------------------------
+git status => to check any file that is un-tracked
+
+git add here wtite file names 
+
+git commit -m "added fileName" => to commit
+
+git log => logged to that file and then we can know that file has been added
+
+git commit -m "Changes to files" => any change detexted before uploading on github
+
+git remote add origin https://github.com/adnan0008/ repository name.git => written in repository by us
+
+git push -u origin master => pushed files to github
+
+git fetch origin master => fetching data from github
+
+git merge origin/master => merged the fetched files and now showing changed output
+
+git pull origin master  => pull updated files from github  just to get the latest version
+
+git remote remove origin => disconnect from previous repository
+
+git pull origin master --allow-unrelated-histories => use when files different from github to local
+
+git push origin master => push to github 
+
+git clone https://github.com/adnan0008/project name.git => just to download of someone's file
+
+git add first file name with extension and other files => add how many files you want to add 
+
+---------------------------------------
+first if clone downloaded then goes into that folder 
+
+git add here wtite file names 
+
+then run command
+
+git commit -m "added files" 
+
+git push origin master
