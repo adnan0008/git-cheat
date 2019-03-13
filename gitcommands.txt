@@ -1,4 +1,4 @@
-something has to be changed
+something has to be changed now changed
 git init => go into that folder where you want ot perform git actions
 
 git status => check if any new files added or not 
